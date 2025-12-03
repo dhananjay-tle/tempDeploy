@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home + Style Preview</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+
+        h2 {
+            margin-top: 40px;
+            color: #333;
+        }
+
+        .style-buttons {
+            margin-bottom: 10px;
+        }
+
+        button {
+            padding: 8px 16px;
+            margin: 6px;
+            cursor: pointer;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 15px;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+    </style>
+
+    <script>
+        function loadPage(home, style) {
+            const url = home + "/index.html?style=" + style;
+            window.open(url, "_blank");   // ← OPEN IN NEW TAB
+        }
+    </script>
+</head>
+
+<body>
+
+<h1>Preview Homes</h1>
+
+<!-- HOME 1 -->
+<h2>Home 1</h2>
+<div class="style-buttons">
+    <button onclick="loadPage('home1', '1')">Style 1</button>
+    <button onclick="loadPage('home1', '2')">Style 2</button>
+    <button onclick="loadPage('home1', '3')">Style 3</button>
+    <button onclick="loadPage('home1', '4')">Style 4</button>
+    <button onclick="loadPage('home1', '5')">Style 5</button>
+</div>
+
+<!-- HOME 2 -->
+<h2>Home 2</h2>
+<div class="style-buttons">
+    <button onclick="loadPage('home2', '2')">Style 1</button>
+</div>
+
+<!-- HOME 3 -->
+<h2>Home 3</h2>
+<div class="style-buttons">
+    <button onclick="loadPage('home3', '3')">Style 1</button>
+</div>
+
+</body>
+</html>

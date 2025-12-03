@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altech Solutions | Enterprise IT Solutions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-grid"></div>
+    <div class="particles" id="particles"></div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <img src="https://picsum.photos/seed/altechlogo/200/60" alt="Altech Solutions Logo">
+            </div>
+            <nav class="nav">
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#case-studies" class="nav-link">Case Studies</a></li>
+                    <li><a href="#careers" class="nav-link">Careers</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="cta-button">Get Started</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content fade-in">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                Mission-Critical IT Support
+            </div>
+            <h1 class="hero-title">
+                Elevating IT Maturity<br>
+                <span class="gradient-text">to the Next Level</span>
+            </h1>
+            <p class="hero-subtitle">
+                Transforming enterprises with future-ready workforce solutions, advanced automation, 
+                and government-grade IT infrastructure. Trusted by NASA, DoD, and Fortune 500 organizations.
+            </p>
+            <div class="hero-buttons">
+                <a href="#services" class="btn btn-primary">
+                    Explore Solutions
+                    <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+                <a href="#case-studies" class="btn btn-secondary">View Case Studies</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">60K+</span>
+                    <span class="stat-label">End Users Supported</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number">99.9%</span>
+                    <span class="stat-label">Uptime Guarantee</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number">15+</span>
+                    <span class="stat-label">Years Excellence</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-visual fade-in-right">
+            <div class="hero-image-wrapper">
+                <img src="https://picsum.photos/seed/herotech/700/500" alt="Enterprise IT Operations Center">
+                <div class="image-overlay"></div>
+            </div>
+            <div class="floating-card card-1">
+                <div class="fc-icon">🔒</div>
+                <div class="fc-text">
+                    <span class="fc-title">Security First</span>
+                    <span class="fc-desc">FedRAMP Authorized</span>
+                </div>
+            </div>
+            <div class="floating-card card-2">
+                <div class="fc-icon">☁️</div>
+                <div class="fc-text">
+                    <span class="fc-title">Cloud Native</span>
+                    <span class="fc-desc">Multi-Cloud Ready</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-container">
+            <div class="about-content fade-in">
+                <div class="section-tag">About Altech</div>
+                <h2 class="section-title">Future-Ready Workforce<br><span class="gradient-text">Powering Digital Transformation</span></h2>
+                <p class="about-text">
+                    At Altech, we drive the evolution of IT by blending cutting-edge technology, intelligent automation, 
+                    and a future-ready workforce. Our solutions empower organizations to reach new heights in IT maturity, 
+                    ensuring seamless transitions through every digital inflection point.
+                </p>
+                <p class="about-text">
+                    With decades of experience serving federal agencies and Fortune 500 enterprises, we deliver 
+                    mission-critical IT support that meets the highest standards of security, reliability, and innovation.
+                </p>
+                <div class="about-features">
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            </svg>
+                        </div>
+                        <div class="feature-content">
+                            <h4>Enterprise Security</h4>
+                            <p>Zero-trust architecture with continuous monitoring</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="3"/><path d="M12 1v6m0 6v10M4.22 4.22l4.24 4.24m7.08 7.08l4.24 4.24M1 12h6m6 0h10M4.22 19.78l4.24-4.24m7.08-7.08l4.24-4.24"/>
+                            </svg>
+                        </div>
+                        <div class="feature-content">
+                            <h4>24/7 Operations</h4>
+                            <p>Round-the-clock support with rapid response</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                            </svg>
+                        </div>
+                        <div class="feature-content">
+                            <h4>Scalable Infrastructure</h4>
+                            <p>Cloud-native solutions built to scale</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image fade-in-right">
+                <div class="glass-frame">
+                    <img src="https://picsum.photos/seed/teamcollab/600/700" alt="IT Engineers Collaborating">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="services-header fade-in">
+            <div class="section-tag">Our Services</div>
+            <h2 class="section-title">Enterprise IT Solutions</h2>
+            <p class="section-subtitle">Comprehensive technology services designed for mission-critical operations</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card fade-in">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8m-4-4v4"/>
+                    </svg>
+                </div>
+                <h3>Endpoint Management</h3>
+                <p>Comprehensive compute, mobile, and device management for seamless end-user experience across your organization.</p>
+                <ul class="service-features">
+                    <li>Device Lifecycle Management</li>
+                    <li>MDM & Security Policies</li>
+                    <li>Rapid Fulfillment</li>
+                </ul>
+            </div>
+            <div class="service-card fade-in">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/>
+                    </svg>
+                </div>
+                <h3>Cloud & Data Center</h3>
+                <p>Hybrid cloud solutions and data center services optimized for performance, security, and cost efficiency.</p>
+                <ul class="service-features">
+                    <li>Multi-Cloud Architecture</li>
+                    <li>Infrastructure as Code</li>
+                    <li>Disaster Recovery</li>
+                </ul>
+            </div>
+            <div class="service-card fade-in">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                    </svg>
+                </div>
+                <h3>Cybersecurity</h3>
+                <p>Enterprise-grade security operations with zero-trust architecture and continuous threat monitoring.</p>
+                <ul class="service-features">
+                    <li>SOC Operations</li>
+                    <li>Threat Intelligence</li>
+                    <li>Compliance Management</li>
+                </ul>
+            </div>
+            <div class="service-card fade-in">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                    </svg>
+                </div>
+                <h3>IT Service Management</h3>
+                <p>End-to-end ITSM solutions with enterprise help desk, incident management, and service automation.</p>
+                <ul class="service-features">
+                    <li>Help Desk (Tier 2 & 3)</li>
+                    <li>ITIL Best Practices</li>
+                    <li>Service Catalog</li>
+                </ul>
+            </div>
+            <div class="service-card fade-in">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M12 2v4m0 12v4M4.93 4.93l2.83 2.83m8.48 8.48l2.83 2.83M2 12h4m12 0h4M4.93 19.07l2.83-2.83m8.48-8.48l2.83-2.83"/>
+                    </svg>
+                </div>
+                <h3>Automation & AI</h3>
+                <p>Intelligent automation solutions that streamline operations and enhance workforce productivity.</p>
+                <ul class="service-features">
+                    <li>RPA Implementation</li>
+                    <li>AI-Powered Analytics</li>
+                    <li>Workflow Optimization</li>
+                </ul>
+            </div>
+            <div class="service-card fade-in">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87m-3-12a4 4 0 0 1 0 7.75"/>
+                    </svg>
+                </div>
+                <h3>Federal Contracting</h3>
+                <p>Specialized IT services for government agencies with full compliance and security clearance support.</p>
+                <ul class="service-features">
+                    <li>GSA Schedule Holder</li>
+                    <li>FedRAMP Compliance</li>
+                    <li>Cleared Personnel</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies Section -->
+    <section id="case-studies" class="case-studies">
+        <div class="section-header fade-in">
+            <div class="section-tag">Success Stories</div>
+            <h2 class="section-title">Mission-Critical Partnerships</h2>
+            <p class="section-subtitle">Delivering excellence for America's most important organizations</p>
+        </div>
+
+        <div class="case-study-item fade-in">
+            <div class="case-image">
+                <img src="https://picsum.photos/seed/nasatech/800/500" alt="NASA NEST Program">
+                <div class="case-overlay"></div>
+            </div>
+            <div class="case-content glass-card">
+                <div class="case-badge">NASA Partnership</div>
+                <h3>NASA End-User Services & Technologies (NEST)</h3>
+                <p>As part of Team Leidos, Altech provides, manages, secures, and maintains essential IT services for 60,000 end users across NASA. We're NASA's agile, trusted partner in transforming, integrating, modernizing, and safeguarding NASA's IT systems and data.</p>
+                <div class="case-stats">
+                    <div class="case-stat">
+                        <span class="cs-number">60,000+</span>
+                        <span class="cs-label">End Users</span>
+                    </div>
+                    <div class="case-stat">
+                        <span class="cs-number">10+</span>
+                        <span class="cs-label">NASA Centers</span>
+                    </div>
+                    <div class="case-stat">
+                        <span class="cs-number">24/7</span>
+                        <span class="cs-label">Support</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="case-study-item reverse fade-in">
+            <div class="case-image">
+                <img src="https://picsum.photos/seed/aegisnet/800/500" alt="AEGIS Network">
+                <div class="case-overlay"></div>
+            </div>
+            <div class="case-content glass-card">
+                <div class="case-badge">Enterprise Infrastructure</div>
+                <h3>Advanced Enterprise Global IT Solutions (AEGIS)</h3>
+                <p>AEGIS provides seamless communication infrastructure spanning wide-area and center local-area networks. Supporting critical systems including cybersecurity, collaboration tools, emergency warning systems, and telephony across five NASA centers.</p>
+                <div class="case-stats">
+                    <div class="case-stat">
+                        <span class="cs-number">5</span>
+                        <span class="cs-label">NASA Centers</span>
+                    </div>
+                    <div class="case-stat">
+                        <span class="cs-number">99.99%</span>
+                        <span class="cs-label">Network Uptime</span>
+                    </div>
+                    <div class="case-stat">
+                        <span class="cs-number">Enterprise</span>
+                        <span class="cs-label">Scale</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="case-study-item fade-in">
+            <div class="case-image">
+                <img src="https://picsum.photos/seed/nrcgov/800/500" alt="NRC Operations">
+                <div class="case-overlay"></div>
+            </div>
+            <div class="case-content glass-card">
+                <div class="case-badge">Federal Agency</div>
+                <h3>US Nuclear Regulatory Commission (USNRC)</h3>
+                <p>Altech is a subcontractor on the NRC's GLINDA program, providing comprehensive IT support to NRC Headquarters and regional offices. Delivering seat services, network services, cloud services, and operational security services under flexible BPA-IDIQ contract.</p>
+                <div class="case-stats">
+                    <div class="case-stat">
+                        <span class="cs-number">6</span>
+                        <span class="cs-label">Locations</span>
+                    </div>
+                    <div class="case-stat">
+                        <span class="cs-number">Full</span>
+                        <span class="cs-label">IT Stack</span>
+                    </div>
+                    <div class="case-stat">
+                        <span class="cs-number">Mission</span>
+                        <span class="cs-label">Critical</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Badges Section -->
+    <section class="trust-section">
+        <div class="trust-container fade-in">
+            <h3>Trusted By Industry Leaders</h3>
+            <div class="trust-logos">
+                <div class="trust-logo"><img src="https://picsum.photos/seed/nasalogo/180/80" alt="NASA"></div>
+                <div class="trust-logo"><img src="https://picsum.photos/seed/leidoslogo/180/80" alt="Leidos"></div>
+                <div class="trust-logo"><img src="https://picsum.photos/seed/jpllogo/180/80" alt="JPL"></div>
+                <div class="trust-logo"><img src="https://picsum.photos/seed/nrclogo/180/80" alt="NRC"></div>
+                <div class="trust-logo"><img src="https://picsum.photos/seed/gsalogo/180/80" alt="GSA"></div>
+                <div class="trust-logo"><img src="https://picsum.photos/seed/sbalogo/180/80" alt="SBA"></div>
+            </div>
+        </div>
+        <div class="certifications fade-in">
+            <h4>Our Certifications</h4>
+            <p>Government-grade compliance and industry certifications</p>
+            <div class="cert-badges">
+                <div class="cert-badge">
+                    <img src="https://picsum.photos/seed/sba8a/150/150" alt="SBA 8(a)">
+                    <span>SBA 8(a) Certified</span>
+                </div>
+                <div class="cert-badge">
+                    <img src="https://picsum.photos/seed/gsamas/150/150" alt="GSA MAS">
+                    <span>GSA MAS</span>
+                </div>
+                <div class="cert-badge">
+                    <img src="https://picsum.photos/seed/iso27001/150/150" alt="ISO 27001">
+                    <span>ISO 27001</span>
+                </div>
+                <div class="cert-badge">
+                    <img src="https://picsum.photos/seed/fedramp/150/150" alt="FedRAMP">
+                    <span>FedRAMP Ready</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Careers Section -->
+    <section id="careers" class="careers">
+        <div class="careers-container">
+            <div class="careers-content fade-in">
+                <div class="section-tag">Join Our Team</div>
+                <h2 class="section-title">Build Your Future<br><span class="gradient-text">With Altech</span></h2>
+                <p>Join a team of innovators, problem-solvers, and technology leaders. We're looking for exceptional talent to help us transform enterprise IT for the world's most important organizations.</p>
+                <div class="career-benefits">
+                    <div class="benefit">
+                        <span class="benefit-icon">💼</span>
+                        <span>Competitive Compensation</span>
+                    </div>
+                    <div class="benefit">
+                        <span class="benefit-icon">🏥</span>
+                        <span>Comprehensive Benefits</span>
+                    </div>
+                    <div class="benefit">
+                        <span class="benefit-icon">📈</span>
+                        <span>Career Growth</span>
+                    </div>
+                    <div class="benefit">
+                        <span class="benefit-icon">🎓</span>
+                        <span>Training & Certifications</span>
+                    </div>
+                </div>
+                <a href="/careers" class="btn btn-primary">View Open Positions</a>
+            </div>
+            <div class="careers-image fade-in-right">
+                <img src="https://picsum.photos/seed/careerstech/600/500" alt="Altech Team">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-container">
+            <div class="contact-info fade-in">
+                <div class="section-tag">Get In Touch</div>
+                <h2 class="section-title">Let's Discuss Your<br><span class="gradient-text">IT Transformation</span></h2>
+                <p>Ready to elevate your IT maturity? Our experts are here to help you navigate your digital transformation journey.</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="ci-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <div class="ci-content">
+                            <h5>Headquarters</h5>
+                            <p>Washington, D.C. Metro Area</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="ci-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                        </div>
+                        <div class="ci-content">
+                            <h5>Email</h5>
+                            <p>info@altech-usa.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="ci-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                        </div>
+                        <div class="ci-content">
+                            <h5>Phone</h5>
+                            <p>+1 (202) 555-0199</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form-wrapper fade-in-right">
+                <form class="contact-form glass-card">
+                    <h3>Send Us a Message</h3>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">First Name</label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="company">Company / Organization</label>
+                        <input type="text" id="company" name="company">
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Service Interest</label>
+                        <select id="service" name="service">
+                            <option value="">Select a service...</option>
+                            <option value="endpoint">Endpoint Management</option>
+                            <option value="cloud">Cloud & Data Center</option>
+                            <option value="security">Cybersecurity</option>
+                            <option value="itsm">IT Service Management</option>
+                            <option value="automation">Automation & AI</option>
+                            <option value="federal">Federal Contracting</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Submit Inquiry</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <img src="https://picsum.photos/seed/altechfooter/200/60" alt="Altech Solutions">
+                    <p>Transforming enterprise IT with innovation, security, and a future-ready workforce.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                        </a>
+                        <a href="#" class="social-link">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#careers">Careers</a></li>
+                            <li><a href="#">Leadership</a></li>
+                            <li><a href="#">News & Insights</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#services">Endpoint Management</a></li>
+                            <li><a href="#services">Cloud Solutions</a></li>
+                            <li><a href="#services">Cybersecurity</a></li>
+                            <li><a href="#services">Federal IT</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Resources</h4>
+                        <ul>
+                            <li><a href="#">Case Studies</a></li>
+                            <li><a href="#">White Papers</a></li>
+                            <li><a href="#">Documentation</a></li>
+                            <li><a href="#">Support</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 <strong>ALTECH SOLUTIONS</strong>. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Accessibility</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="deploy.js"></script>
+
+</body>
+</html>
